@@ -3,8 +3,39 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script type="javascript" src="script.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Anta&display=swap"
+      rel="stylesheet"
+    />
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="styles.css" />
     <title>Document</title>
   </head>
-  <body></body>
+  <body>
+    <div class="header anta-regular shadow"><h1>Rock Paper Scissors!</h1></div>
+    <div id="result-and-score">
+      <div class="choice-display">
+        <p class="choice-message anta-regular">Make Your Choice</p>
+        <div class="result-showing">
+          <div id="player-selection" class="selection"></div>
+          <p class="anta-regular" id="vs"><em>VS</em></p>
+          <div id="computer-selection" class="selection"></div>
+        </div>
+      </div>
+      <div id="score-and-round-box">
+        <div id="class-and-round-display">
+          <div class="anta-regular" id="round-display">Round: 1</div>
+          <div class="anta-regular" id="score-display">Score: 0</div>
+        </div>
+        <div id="score-decreasing" class="score-changing anta-regular"></div>
+      </div>
+    </div>
+    <div class="choice-box">
+      <button class="shadow1 choice" id="rock">👊</button>
+      <button class="shadow1 choice" id="scissors">✌️</button>
+      <button class="shadow1 choice" id="paper">🖐️</button>
+    </div>
+  </body>
 </html>

@@ -1,0 +1,154 @@
+body {
+    margin: 0;
+    background-color: rgb(31, 31, 31);
+}
+
+button {
+    background-color: rgb(42, 42, 42);
+    font-size: 200px;
+    border: none;
+    border-radius: 30px;
+    transition: 0.5s;
+}
+
+button:hover {
+    font-size: 210px;
+    background-color: #222222;
+    transition: 0.5s;
+}
+
+.choice-box {
+    margin-top: 140px;
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    justify-content: center;
+}
+
+h1 {
+    color: rgb(248, 248, 248);
+    font-size: 80px;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    text-shadow: 0 0 8px white;
+}
+
+.header {
+    background-color: rgb(144, 144, 144);
+    padding: 0;
+
+}
+
+.anta-regular {
+    font-family: "Anta", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.shadow {
+    -webkit-box-shadow: #666 0px 0px 200px;
+    -moz-box-shadow: #666 0px 0px 200px;
+    box-shadow: #666 0px 0px 200px;
+}
+
+.shadow1 {
+    -webkit-box-shadow: #666 0px 0px 50px;
+    -moz-box-shadow: #666 0px 0px 50px;
+    box-shadow: #545454 15px 15px 50px;
+}
+  
+.choice-message {
+    color: rgb(248, 248, 248);
+    font-size: 60px;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    text-shadow: 0 0 8px white;    
+}
+
+.choice-display {
+    display: flex;
+    flex-direction: column;
+    padding-left: 630px;
+}
+
+#class-and-round-display {
+    margin: 30px 0 0 200px;
+}
+
+#round-display, #score-display {
+    font-style: italic;
+    color: white;
+    font-size: 60px;
+    text-shadow: 3px 3px 10px white;
+    transition: transform 1s;
+}
+
+#result-and-score {
+    display: flex;
+}
+
+.result-showing {
+    margin-top: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px
+}
+
+#score-and-round-display {
+    display: flex;
+    flex-direction: column;
+}
+
+.selection {
+    width: 100px;
+    height: 130px;
+    font-size: 90px;
+    text-align: center;
+    background-color: rgb(58, 58, 58);
+    border-radius: 10px;
+    box-shadow: 8px 8px 30px rgba(198, 198, 198, 0.60);
+}
+
+#vs {
+    font-size: 60px;
+    color: rgb(231, 231, 231);
+    text-shadow: 3px 3px 10px white;
+}
+
+#player-selection, #computer-selection {
+    transition: transform 1s;
+}
+
+#score-and-round-box {
+    display: flex;
+}
+
+.score-changing {
+    transition: transform 1s;
+}
+
+#score-increasing {
+    color: rgba(0, 222, 0, 0.85);
+    text-shadow: 3px 3px 10px rgb(0, 232, 8);
+}
+
+#score-decreasing {
+    color: rgba(191, 0, 0, 0.891);
+    text-shadow: 3px 3px 10px rgb(255, 41, 41); 
+}
+
+#score-drawing {
+    color: #adadad;
+    text-shadow: 3px 3px 8px rgb(196, 196, 196);
+}
+
+.score-changing {
+    font-style: italic;
+    font-size: 60px;
+    margin: 103px 0 0 20px;
+    opacity: 0; 
+    transition: opacity 0.5s; 
+}
